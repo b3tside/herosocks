@@ -12,7 +12,7 @@ RUN apk --update add --no-cache nginx ca-certificates libcrypto1.1 libev libsodi
 && tar xvf demo.tar.gz \
 && rm -rf demo.tar.gz \
 && rm -rf /etc/localtime \
-&& ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+&& ln -sf /usr/share/zoneinfo/Asia/Jakarta /etc/localtime \
 && apk add --no-cache --virtual TMP git autoconf automake make build-base zlib-dev gettext-dev asciidoc xmlto libpcre32 libev-dev \
 libsodium-dev libtool linux-headers mbedtls-dev openssl-dev pcre-dev c-ares-dev g++ gcc \
 
