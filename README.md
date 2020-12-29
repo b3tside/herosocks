@@ -1,4 +1,4 @@
-# Heroku Shadowsocks Obfs
+# Heroku Shadowsocks Obfs TLS
 Deploy shadowsocks server on heroku
 ## Principle
 Simple-obfs convert the traffic into websocket instead of ordinary tcp connection, which could serve behind nginx. \
@@ -7,7 +7,7 @@ Theoretically, this enables ss-server to use any CDN that support websocket traf
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 ## How to use
 Host: <app_name>.herokuapp.com \
-Port: 80 \
+Port: 443 \
 Plug-in: simple-obfs or ss-local.exe \
 Plug-in-options: obfs=http;obfs-host=<app_name>.herokuapp.com
 ## Note
