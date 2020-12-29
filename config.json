@@ -7,7 +7,7 @@
     "method":"chacha20-ietf-poly1305",
     "workers":8,
     "plugin":"obfs-server",
-    "plugin_opts": "obfs=tls;obfs-host=www.bing.com",
+    "plugin_opts": "obfs=tls;obfs-host=www.youtube.com",
     "fast_open":false,
     "reuse_port":true
 }
